@@ -1,0 +1,28 @@
+// ********************  IMPORT STYLE PAGES  **************
+@import './Styles/layout';
+@import './Styles/navbar';
+@import './Styles/typography';
+@import './Styles/title';
+@import './Styles/about';
+@import './Styles/skills';
+@import './Styles/services';
+
+// Basic page reset
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.2rem;
+    color: #a4acc4;
+    padding: 5px;
+}
+
+span{
+    color: #037FFF;
+}
